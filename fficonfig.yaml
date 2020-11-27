@@ -1,0 +1,6 @@
+name: SDL2
+output: "lib/src/generated/generated_bindings.dart"
+
+headers:
+  entry-points:
+    - "SDL2-2.0.12/include/*.h"

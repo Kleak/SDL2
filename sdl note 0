@@ -1,0 +1,42 @@
+Fii talk
+
+Presentation
+
+2 way of doing ffi 
+- by hand
+- automatic with ffigen
+
+download SDL2
+
+the first one will be an little example with fibonacci
+
+explain how everything work
+
+launch the benchmark
+
+WOW what bad perf on the ffi side ! why ?
+recompile in release mode
+
+relaunch benchmark
+
+
+
+--------------------------------------------------- SDL2
+
+get SDL2 from download
+
+
+
+
+name: SDL2
+output: "lib/src/generated/generated_bindings.dart"
+
+
+headers:
+  entry-points:
+    - "SDL2-2.0.12/include/*.h"
+
+explain what this is doing
+
+generated binding automatically with 
+pub run ffigen --config fficonfig.yaml
